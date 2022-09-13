@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import ProductList from "./Components/ProductList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>HOC: Higher Order Component</h1>
+      <ul>
+        <li>A Higher-order component is a function that takes a component and returns a new component.</li>
+        <li>A HOC is an advanced technique in React for reusing component logic.</li>
+        <li>HOCs are not part of the React API.</li>
+        <li>They are a pattern that emerges from React's compositional nature.</li>
+      </ul>
+      <h1>Syntax:</h1>
+      const EnhancedComponent = higherOrderComponent(WrappedComponent);
+      <br></br>
+      <div className="App">
+        <ProductList />
+      </div>
+    </>
+
   );
 }
 
