@@ -1,6 +1,7 @@
 import './App.css';
 import React from "react";
 import ProductList from "./Components/ProductList";
+import PureComponent from './Components/PureComponent';
 
 function App() {
   return (
@@ -18,8 +19,19 @@ function App() {
       <div className="App">
         <ProductList />
       </div>
+      <h1>Pure Components</h1>
+      <ul>
+        <li>A React component is considered pure if it renders the same output for the same state and props. </li>
+        <li>For this type of class component, React provides the PureComponent base class.</li>
+        <li>Class components that extend the React. PureComponent class are treated as pure components.</li>
+      </ul>
+      <div className="App">
+        <PureComponent />
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
     </>
-
   );
 }
 

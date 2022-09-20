@@ -1,4 +1,7 @@
 import React from "react";
+import './style.css';
+
+
 const products = [
   { productName: "Redmi Note 8", price: 'Rs.10,999' },
   { productName: "Samsung Galaxy F22", price: "Rs.11,499" },

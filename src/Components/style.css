@@ -1,0 +1,21 @@
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 1em;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+h1{
+    color: cadetblue;
+}
+#pureComponentNameTag{
+    color: red;
+}
+.pure{
+    font-size: larger;
+}

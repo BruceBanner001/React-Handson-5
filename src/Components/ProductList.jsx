@@ -1,5 +1,6 @@
 import React from "react";
 import withSearch from "./HOC";
+import './style.css';
 
 class ProductList extends React.Component {
   render() {
